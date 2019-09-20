@@ -1,10 +1,24 @@
 <style>
+  .opacity_visible {
+    opacity: 1 !important;
+  }
+  .transition {
+    transition: opacity 0.2s;
+  }
   .block {
     padding: 20px;
     background: lightblue;
   }
   .pink {
     background: pink !important;
+  }
+  .group-btn {
+    border: none;
+  }
+
+  .group {
+    margin-left: 10px;
+    display: inline-flex;
   }
   .black {
     background: black !important;
@@ -48,6 +62,9 @@
   }
   .list + .list {
     margin: 10px 0;
+  }
+  .opacity {
+    opacity: 0.1;
   }
 </style>
 
@@ -138,6 +155,40 @@
         <h1>stopPropagation</h1>
       </div>
     </Popover>
+  </div>
+
+  <Popover let:open>
+    <button slot="target">Transition</button>
+    <div slot="content" class="content opacity transition" class:opacity_visible={open}>
+      <h1>Content</h1>
+    </div>
+  </Popover>
+
+  <div class="group">
+    <div>
+      <Popover action="hover" arrowColor="#fff">
+        <button slot="target" class="group-btn">Click</button>
+        <div slot="content" class="content">
+          <h1>Content</h1>
+        </div>
+      </Popover>
+    </div>
+    <div>
+      <Popover action="hover" arrowColor="#fff">
+        <button slot="target" class="group-btn">Click</button>
+        <div slot="content" class="content">
+          <h1>Content</h1>
+        </div>
+      </Popover>
+    </div>
+    <div>
+      <Popover action="hover" arrowColor="#fff">
+        <button slot="target" class="group-btn">Click</button>
+        <div slot="content" class="content">
+          <h1>Content</h1>
+        </div>
+      </Popover>
+    </div>
   </div>
 
 </div>
