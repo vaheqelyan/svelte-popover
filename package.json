@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/vaheqelyan/svelte-popover.git"
   },
-  "author": "",
+  "author": "Vahe Araqelyan <vaheqelyan@mail.com>",
   "license": "ISC",
   "files": [
     "src",
