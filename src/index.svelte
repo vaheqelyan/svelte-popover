@@ -13,7 +13,7 @@
     <slot name="target" {open} />
   </div>
   {#if open}
-    <Content on:open={onOpen} on:setOpen={setOpen} {placement} {targetRef} {open} {zIndex} {arrow} {action} {arrowColor} {preventDefault} {stopPropagation}>
+    <Content on:open={onOpen} on:setOpen={setOpen} {placement} {targetRef} {zIndex} {arrow} {action} {arrowColor} {preventDefault} {stopPropagation}>
       <slot name="content" />
     </Content>
   {/if}
