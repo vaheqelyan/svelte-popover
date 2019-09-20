@@ -12,7 +12,7 @@
   {/if}
 </div>
 
-<Overlay {zIndex} {action} on:setOpen={setOpen} {stopPropagation} { preventDefault } />
+<Overlay {zIndex} {action} on:setOpen={setOpen} {stopPropagation} {preventDefault} />
 
 <script>
   export let arrowColor;

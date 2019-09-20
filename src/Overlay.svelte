@@ -23,9 +23,9 @@
   const dispatch = createEventDispatcher();
 
   const eventClick = e => {
-    if(preventDefault) e.preventDefault()
-    if(stopPropagation) e.stopPropagation()
-      
+    if (preventDefault) e.preventDefault();
+    if (stopPropagation) e.stopPropagation();
+
     dispatch('setOpen', {});
   };
 
