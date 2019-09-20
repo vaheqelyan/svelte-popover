@@ -1,10 +1,4 @@
 <style>
-  .opacity_visible {
-    opacity: 1 !important;
-  }
-  .transition {
-    transition: opacity 0.2s;
-  }
   .block {
     padding: 20px;
     background: lightblue;
@@ -157,9 +151,9 @@
     </Popover>
   </div>
 
-  <Popover let:open>
-    <button slot="target">Transition</button>
-    <div slot="content" class="content opacity transition" class:opacity_visible={open}>
+  <Popover arrowColor="#fff" action={false}>
+    <button slot="target">Disabled</button>
+    <div slot="content" class="content">
       <h1>Content</h1>
     </div>
   </Popover>
@@ -167,7 +161,7 @@
   <div class="group">
     <div>
       <Popover action="hover" arrowColor="#fff">
-        <button slot="target" class="group-btn">Click</button>
+        <button slot="target" class="group-btn">One</button>
         <div slot="content" class="content">
           <h1>Content</h1>
         </div>
@@ -175,7 +169,7 @@
     </div>
     <div>
       <Popover action="hover" arrowColor="#fff">
-        <button slot="target" class="group-btn">Click</button>
+        <button slot="target" class="group-btn">Two</button>
         <div slot="content" class="content">
           <h1>Content</h1>
         </div>
@@ -183,7 +177,7 @@
     </div>
     <div>
       <Popover action="hover" arrowColor="#fff">
-        <button slot="target" class="group-btn">Click</button>
+        <button slot="target" class="group-btn">Three</button>
         <div slot="content" class="content">
           <h1>Content</h1>
         </div>
