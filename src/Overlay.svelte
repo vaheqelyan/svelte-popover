@@ -15,12 +15,17 @@
   export let zIndex;
   export let action;
   export let overlayColor = 'rgba(0,0,0,0.5)';
+  export let preventDefault;
+  export let stopPropagation;
 
   import { createEventDispatcher } from 'svelte';
 
   const dispatch = createEventDispatcher();
 
-  const eventClick = () => {
+  const eventClick = e => {
+    if(preventDefault) e.preventDefault()
+    if(stopPropagation) e.stopPropagation()
+      
     dispatch('setOpen', {});
   };
 
