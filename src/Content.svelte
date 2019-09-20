@@ -16,7 +16,6 @@
 
 <script>
   export let arrowColor;
-  export let open;
   export let targetRef;
   export let zIndex;
   export let arrow;
