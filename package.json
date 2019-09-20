@@ -7,7 +7,7 @@
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pretty": "prettier --config .prettierrc --write --svelte-sort-order styles-markup-scripts \"rollup.config.js\" \".prettierrc\" \"package.json\" \"src/*.svelte\" ",
+    "pretty": "prettier --config .prettierrc --write --svelte-sort-order styles-markup-scripts \"rollup.config.js\" \".prettierrc\" \"package.json\" \"src/*.svelte\" \"www/src/*.js\" \"www/src/*.html\" \"www/src/**/*.svelte\" ",
     "build": "rollup -c",
     "go": "npm-run-all pretty build"
   },
