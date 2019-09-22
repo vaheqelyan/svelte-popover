@@ -39,7 +39,7 @@
 
 <div class="link">
   <a target="_blank" href={`${openInSource}/basic.svelte`}>View this example's source</a>
-  <a target="_blank" href="">Open in repl</a>
+  <a target="_blank" href=https://svelte.dev/repl/05578b5568864a329aa4af11a9094fbe?version=3.12.1>Open in repl</a>
 </div>
 
 <div class="group">

@@ -27,7 +27,7 @@
 
 <div class="link">
   <a target="_blank" href={`${openInSource}/basic.svelte`}>View this example's source</a>
-  <a target="_blank" href="">Open in repl</a>
+  <a target="_blank" href=https://svelte.dev/repl/d6aab80cd0b24f1bb9d934a2eb9a79a0?version=3.12.1>Open in repl</a>
 </div>
 
 <Popover arrowColor="#fff">
