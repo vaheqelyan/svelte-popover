@@ -28,7 +28,7 @@
     "sapper": "^0.27.8",
     "svelte": "^3.7.1",
     "svelte-loader": "^2.13.6",
-    "svelte-popover": "^1.0.2",
+    "svelte-popover": "^2.0.1",
     "webpack": "^4.39.1"
   }
 }
