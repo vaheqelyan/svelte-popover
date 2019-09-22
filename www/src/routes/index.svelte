@@ -57,9 +57,6 @@
   .list + .list {
     margin: 10px 0;
   }
-  .opacity {
-    opacity: 0.1;
-  }
 </style>
 
 <div class="welcome">
