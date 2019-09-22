@@ -36,7 +36,7 @@
 
 <div class="link">
   <a target="_blank" href={`${openInSource}/basic.svelte`}>View this example's source</a>
-  <a target="_blank" href=https://svelte.dev/repl/201072c0224f4fd2a7c2f2037dd780c2?version=3.12.1>Open in repl</a>
+  <a target="_blank" href="https://svelte.dev/repl/201072c0224f4fd2a7c2f2037dd780c2?version=3.12.1">Open in repl</a>
 </div>
 
 <a href="https://github.com/vaheqelyan/svelte-grid" target="_blank">

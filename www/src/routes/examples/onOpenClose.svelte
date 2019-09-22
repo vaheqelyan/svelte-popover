@@ -34,7 +34,7 @@
 
 <div class="link">
   <a target="_blank" href={`${openInSource}/basic.svelte`}>View this example's source</a>
-  <a target="_blank" href=https://svelte.dev/repl/d1ce1a3c34804fa59622c187d1cdea58?version=3.12.1>Open in repl</a>
+  <a target="_blank" href="https://svelte.dev/repl/d1ce1a3c34804fa59622c187d1cdea58?version=3.12.1">Open in repl</a>
 </div>
 
 <Popover on:open={() => alert('open')} on:close={() => alert('close')}>
