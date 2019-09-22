@@ -1,6 +1,6 @@
 {
   "name": "svelte-popover",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "svelte": "src/index.svelte",
   "module": "build/index.mjs",
