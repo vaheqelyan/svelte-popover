@@ -108,22 +108,31 @@
     const topBottomEnd = -(contentBound.width - targetBound.width);
     const topBottomCenter = targetBound.width / 2 - contentBound.width / 2;
 
+
+    const computeArrowW = arrowBound.width/2
+    const computearrowH = arrowBound.height/2
+
+    const leftLeftStyle = -(contentBound.width + computeArrowW)
+    const topTopStyle = -(contentBound.height + arrowBound.height / 2)
+    const rightLeftStyle = targetBound.width + computeArrowW
+    const bottomTopStyle = targetBound.height + computearrowH
+
     const styles = {
-      topStart: `top:${-(contentBound.height + arrowBound.height / 2)}px`,
-      topCenter: `top:${-(contentBound.height + arrowBound.height / 2)}px;left:${topBottomCenter}px`,
-      topEnd: `top:${-(contentBound.height + arrowBound.height / 2)}px;left:${topBottomEnd}px`,
+      topStart: `top:${topTopStyle}px`,
+      topCenter: `top:${topTopStyle}px;left:${topBottomCenter}px`,
+      topEnd: `top:${topTopStyle}px;left:${topBottomEnd}px`,
 
-      leftStart: `left:${-(contentBound.width + Math.ceil(arrowBound.width / 2))}px`,
-      leftCenter: `left:${-(contentBound.width + Math.ceil(arrowBound.width / 2))}px;top:${xCenterStyle}px`,
-      leftEnd: `left:${-contentBound.width - arrowBound.height / 2}px;top:${rightLeftEnd}px`,
+      leftStart: `left:${leftLeftStyle}px`,
+      leftCenter: `left:${leftLeftStyle}px;top:${xCenterStyle}px`,
+      leftEnd: `left:${leftLeftStyle}px;top:${rightLeftEnd}px`,
 
-      rightStart: `left:${targetBound.width + arrowBound.width / 2}px`,
-      rightCenter: `left:${targetBound.width + arrowBound.width / 2}px;top:${xCenterStyle}px`,
-      rightEnd: `left:${targetBound.width + arrowBound.width / 2}px;top:${rightLeftEnd}px`,
+      rightStart: `left:${rightLeftStyle}px`,
+      rightCenter: `left:${rightLeftStyle}px;top:${xCenterStyle}px`,
+      rightEnd: `left:${rightLeftStyle}px;top:${rightLeftEnd}px`,
 
-      bottomStart: `top:${targetBound.height}px`,
-      bottomCenter: `top:${targetBound.height}px;left:${topBottomCenter}px`,
-      bottomEnd: `top:${targetBound.height}px;left:${topBottomEnd}px;`,
+      bottomStart: `top:${bottomTopStyle}px`,
+      bottomCenter: `top:${bottomTopStyle}px;left:${topBottomCenter}px`,
+      bottomEnd: `top:${bottomTopStyle}px;left:${topBottomEnd}px;`,
     };
 
     const arrowBottomTransform = `transform:rotate(-45deg)`;
