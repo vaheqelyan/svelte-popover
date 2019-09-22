@@ -35,7 +35,7 @@
 <code>
   <pre>
     {`
-    <script ✂prettier:content✂="CiAgICAgIGltcG9ydCBQb3BvdmVyIGZyb20gJ3N2ZWx0ZS1wb3BvdmVyJwogICAg" ✂prettier:content✂="e30=" ✂prettier:content✂="e30=">{}</script>    <Popover>
+    <script ✂prettier:content✂="CiAgICAgIGltcG9ydCBQb3BvdmVyIGZyb20gJ3N2ZWx0ZS1wb3BvdmVyJwogICAg" ✂prettier:content✂="e30=" ✂prettier:content✂="e30=" ✂prettier:content✂="e30=">{}</script>    <Popover>
       <button slot=target></button>
       <div slot=content>
         <h1>Content</h1>

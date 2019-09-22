@@ -108,14 +108,13 @@
     const topBottomEnd = -(contentBound.width - targetBound.width);
     const topBottomCenter = targetBound.width / 2 - contentBound.width / 2;
 
+    const computeArrowW = arrowBound.width / 2;
+    const computearrowH = arrowBound.height / 2;
 
-    const computeArrowW = arrowBound.width/2
-    const computearrowH = arrowBound.height/2
-
-    const leftLeftStyle = -(contentBound.width + computeArrowW)
-    const topTopStyle = -(contentBound.height + arrowBound.height / 2)
-    const rightLeftStyle = targetBound.width + computeArrowW
-    const bottomTopStyle = targetBound.height + computearrowH
+    const leftLeftStyle = -(contentBound.width + computeArrowW);
+    const topTopStyle = -(contentBound.height + arrowBound.height / 2);
+    const rightLeftStyle = targetBound.width + computeArrowW;
+    const bottomTopStyle = targetBound.height + computearrowH;
 
     const styles = {
       topStart: `top:${topTopStyle}px`,
