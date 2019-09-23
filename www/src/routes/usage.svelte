@@ -68,6 +68,21 @@ You can also use nested popovers
   </pre>
 </code>
 
+Use <code>let:open</code> directive. For example
+
+<code>
+  <pre>
+    {`
+    <Popover let:open={isOpen}>
+      <button slot=target class:active={isOpen}>Target</button>
+      <div slot=content>
+        <h1>Content</h1>
+      </div>
+    </Popover>
+  `}
+  </pre>
+</code>
+
 <h2>Props</h2>
 
 <div class="scroll">
