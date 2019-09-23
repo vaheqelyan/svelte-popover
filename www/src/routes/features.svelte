@@ -16,7 +16,6 @@
 
 <svelte:head>
   <title>Svelte-popover — Features</title>
-  <!-- <meta name="description" content=""/> -->
   <meta name="keywords" content="Svelte,svelte,svelte.js,sveltejs,features,popover,svelte-popover" />
   <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>

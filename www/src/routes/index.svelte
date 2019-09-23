@@ -59,6 +59,13 @@
   }
 </style>
 
+<svelte:head>
+  <title>Svelte-popover — A smart popover component for Svelte.</title>
+  <meta name="description" content="A smart popover component for Svelte."/>
+  <meta name="keywords" content="svelte,sveltejs,svelte.js,Svelte,svelte-popover,popover"/>
+  <meta name="author" content="Vahe Araqelyan"/>
+</svelte:head>
+
 <div class="welcome">
   <h1>Svelte-popover</h1>
   <h4>A smart and easy to use popover component for Svelte</h4>

@@ -13,9 +13,9 @@
 </style>
 
 <svelte:head>
-  <title>Example — Basic</title>
-  <meta name="description" content="Svelte-grid — Example — Basic" />
-  <meta name="keywords" content="draggable,resizable,grid,layout,responsive,breakpoints,Svelte,svelte,svelte.js,sveltejs,usage,example,examples,samples,basic,showcase" />
+  <title>Example — onOpen/onClose</title>
+  <meta name="description" content="Svelte-popover — Example — onOpen/onClose" />
+  <meta name="keywords" content="svelte-popover,onOpen,onClose,svelte,popover" />
   <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>
 
