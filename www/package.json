@@ -1,9 +1,9 @@
 {
+  "name":"svelte-popover.now.sh",
   "scripts": {
+    "start": "sapper dev",
     "dev": "sapper dev",
-    "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
-    "start": "node __sapper__/build"
+    "build": "sapper export"
   },
   "dependencies": {
     "compression": "^1.7.1",
