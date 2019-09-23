@@ -10,10 +10,14 @@
 <a href="https://bundlephobia.com/result?p=svelte-popover@latest">
   <img src="https://img.shields.io/bundlephobia/minzip/svelte-popover?style=for-the-badge"/>
 </a>
+
+<a href="https://svelte-popover.now.sh/">
+  <img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fsvelte-grid.now.sh">
+</a>
+
 </p>
 
 ![](https://res.cloudinary.com/dmtrk3yns/image/upload/q_auto/v1569229689/index_dlgtkt.gif)
-
 
 ## About
 
