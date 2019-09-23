@@ -1,6 +1,6 @@
 {
   "name": "svelte-popover",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A smart popover component for Svelte",
   "svelte": "src/index.svelte",
   "module": "build/index.mjs",
