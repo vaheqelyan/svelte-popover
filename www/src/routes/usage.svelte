@@ -95,6 +95,13 @@ Use <code>let:open</code> directive. For example
       <th>Required</th>
     </tr>
     <tr>
+      <td>let:open</td>
+      <td>Boolean</td>
+      <td>Returns the value of the visibility of a popover</td>
+      <td>...</td>
+      <td>✘</td>
+    </tr>
+    <tr>
       <td>arrow</td>
       <td>Boolean</td>
       <td>
@@ -162,7 +169,7 @@ Use <code>let:open</code> directive. For example
         <code>on:open</code>
         is dispatched/called when the content is mounted
       </td>
-      <td />
+      <td>...</td>
       <td>✘</td>
     </tr>
     <tr>
@@ -172,7 +179,7 @@ Use <code>let:open</code> directive. For example
         <code>on:close</code>
         is dispatched/called after the content is unmounted from the dom
       </td>
-      <td />
+      <td>...</td>
       <td>✘</td>
     </tr>
     <tr>
