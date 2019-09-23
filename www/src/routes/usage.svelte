@@ -67,9 +67,9 @@ You can also use nested popovers
   `}
   </pre>
 </code>
-
-Use <code>let:open</code> directive. For example
-
+Use
+<code>let:open</code>
+directive. For example
 <code>
   <pre>
     {`
