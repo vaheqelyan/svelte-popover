@@ -36,7 +36,7 @@
   <pre>
     {`
     <Popover>
-      <button slot=target></button>
+      <button slot=target>Click</button>
       <div slot=content>
         <h1>Content</h1>
       </div>
@@ -53,7 +53,7 @@ You can also use nested popovers
   <pre>
     {`
     <Popover>
-      <button slot=target></button>
+      <button slot=target>Click</button>
       <div slot=content>
         <h1>Content</h1>
         <Popover>
