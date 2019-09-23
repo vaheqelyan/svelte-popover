@@ -1,7 +1,7 @@
 {
   "name": "svelte-popover",
   "version": "2.0.3",
-  "description": "",
+  "description": "A smart popover component for Svelte",
   "svelte": "src/index.svelte",
   "module": "build/index.mjs",
   "main": "build/index.js",
@@ -11,6 +11,12 @@
     "build": "rollup -c",
     "go": "npm-run-all pretty build"
   },
+  "keywords": [
+		"popover",
+		"svelte",
+		"sveltejs",
+		"svelte-popover"
+	],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vaheqelyan/svelte-popover.git"
