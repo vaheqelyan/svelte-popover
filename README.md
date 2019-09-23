@@ -21,7 +21,7 @@
 
 ## About
 
-- [x] 100% Svlete (or vanillajs) - no jQuery, no 3rd party dependencies
+- [x] 100% Svelte (or vanillajs) - no jQuery, no 3rd party dependencies
 - [x] Compatible with Sapper (SSR Svelte)
 - [x] Auto placement (Work in progress)
 - [x] Click, hover and touch events
