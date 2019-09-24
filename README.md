@@ -12,7 +12,7 @@
 </a>
 
 <a href="https://svelte-popover.now.sh/">
-  <img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fsvelte-grid.now.sh">
+  <img alt="Website" src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fsvelte-popover.now.sh">
 </a>
 
 </p>

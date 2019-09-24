@@ -23,18 +23,12 @@
 <h2>Installation</h2>
 
 <code>
-  <pre>{`npm i svelte-grid --save-dev`}</pre>
+  <pre>{`npm i svelte-popover --save-dev`}</pre>
 </code>
 
 <h2>Usage</h2>
 
 <hr />
-
-<p>
-  Use
-  <b>Grid</b>
-  like any other component.
-</p>
 
 <p>The basic example</p>
 
