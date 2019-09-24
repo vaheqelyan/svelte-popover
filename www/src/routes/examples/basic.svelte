@@ -14,7 +14,7 @@
 
 <svelte:head>
   <title>Example — Basic</title>
-  <meta name="description" content="Svelte-grid — Example — Basic" />
+  <meta name="description" content="Svelte-popover — Example — Basic" />
   <meta name="keywords" content="svelte-popover,popover,basic" />
   <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>

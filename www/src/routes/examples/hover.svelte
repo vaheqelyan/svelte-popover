@@ -22,7 +22,7 @@
 
 <svelte:head>
   <title>Example — Hover</title>
-  <meta name="description" content="Svelte-grid — Example — Hover" />
+  <meta name="description" content="Svelte-popover — Example — Hover" />
   <meta name="keywords" content="svelte-popover,svelte,popover,hover" />
   <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>

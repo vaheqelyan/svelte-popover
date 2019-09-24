@@ -14,7 +14,7 @@
 
 <svelte:head>
   <title>Example — preventDefault/stopPropagation</title>
-  <meta name="description" content="Svelte-grid — Example — preventDefault/stopPropagation" />
+  <meta name="description" content="Svelte-popover — Example — preventDefault/stopPropagation" />
   <meta name="keywords" content="svelte-popover,popover,preventDefault,stopPropagation" />
   <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>
