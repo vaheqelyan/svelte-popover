@@ -1,5 +1,4 @@
 {
-  "name": "svelte-popover.now.sh",
   "scripts": {
     "start": "sapper dev",
     "dev": "sapper dev",
