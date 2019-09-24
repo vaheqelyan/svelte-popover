@@ -39,7 +39,7 @@
   <a target="_blank" href="https://svelte.dev/repl/201072c0224f4fd2a7c2f2037dd780c2?version=3.12.1">Open in repl</a>
 </div>
 
-<a href="https://github.com/vaheqelyan/svelte-grid" target="_blank">
+<a href="https://github.com/vaheqelyan/svelte-popover" target="_blank">
   Link
   <Popover arrowColor="#fff" preventDefault>
     <button slot="target">Popover</button>
