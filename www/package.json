@@ -1,5 +1,5 @@
 {
-  "name":"svelte-popover.now.sh",
+  "name": "svelte-popover.now.sh",
   "scripts": {
     "start": "sapper dev",
     "dev": "sapper dev",
@@ -12,11 +12,11 @@
     "sirv": "^0.4.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.5.5",
+    "@babel/core": "^7.6.2",
     "@babel/plugin-syntax-dynamic-import": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/runtime": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
     "npm-run-all": "^4.1.5",
     "rollup": "^1.19.4",
     "rollup-plugin-babel": "^4.3.3",
@@ -25,10 +25,10 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^4.0.4",
-    "sapper": "^0.27.8",
+    "sapper": "^0.27.9",
     "svelte": "^3.7.1",
     "svelte-loader": "^2.13.6",
-    "svelte-popover": "^2.0.1",
+    "svelte-popover": "^2.0.6",
     "webpack": "^4.39.1"
   }
 }
