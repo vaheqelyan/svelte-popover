@@ -61,9 +61,9 @@
 
 <svelte:head>
   <title>Svelte-popover — A smart popover component for Svelte.</title>
-  <meta name="description" content="A smart popover component for Svelte."/>
-  <meta name="keywords" content="svelte,sveltejs,svelte.js,Svelte,svelte-popover,popover"/>
-  <meta name="author" content="Vahe Araqelyan"/>
+  <meta name="description" content="A smart popover component for Svelte." />
+  <meta name="keywords" content="svelte,sveltejs,svelte.js,Svelte,svelte-popover,popover" />
+  <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>
 
 <div class="welcome">
@@ -108,7 +108,7 @@
   </div>
 
   <Popover placement="bottom-center" arrowColor="#fff" let:open={isOpen}>
-    <input on:click={e=> isOpen && e.stopPropagation() } slot="target" type="text" />
+    <input on:click={e => isOpen && e.stopPropagation()} slot="target" type="text" />
     <div slot="content" class="content" style="width: 500px;">
       {#each new Array(10) as item}
         <div class="list">List</div>

@@ -16,8 +16,8 @@
 
 <svelte:head>
   <title>Svelte-popover — Usage</title>
-  <meta name="keywords" content="svelte-popover,popover,usage"/>
-  <meta name="author" content="Vahe Araqelyan"/>
+  <meta name="keywords" content="svelte-popover,popover,usage" />
+  <meta name="author" content="Vahe Araqelyan" />
 </svelte:head>
 
 <h2>Installation</h2>
