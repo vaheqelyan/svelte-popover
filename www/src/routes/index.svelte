@@ -107,8 +107,8 @@
     <input type="text" />
   </div>
 
-  <Popover placement="bottom-center" arrowColor="#fff">
-    <input slot="target" type="text" />
+  <Popover placement="bottom-center" arrowColor="#fff" let:open={isOpen}>
+    <input on:click={e=> isOpen && e.stopPropagation() } slot="target" type="text" />
     <div slot="content" class="content" style="width: 500px;">
       {#each new Array(10) as item}
         <div class="list">List</div>
