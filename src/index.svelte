@@ -3,12 +3,9 @@
     display: inline-block;
     position: relative;
   }
-  .popover {
-    position: relative;
-  }
 </style>
 
-<div class="popover">
+<div style="position: relative;">
   <div bind:this={targetRef} class="target" style={open ? `z-index: ${zIndex + 10}` : ''} on:click={onClick} on:touchend={onTouchEnd} on:mouseover={onMouseOver} on:mouseout={onMouseOut}>
     <slot name="target" {open} />
   </div>
