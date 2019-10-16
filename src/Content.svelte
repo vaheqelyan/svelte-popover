@@ -18,7 +18,7 @@
   {/if}
 </div>
 
-<Overlay {zIndex} {action} on:setOpen={setOpen} {stopPropagation} {preventDefault} />
+<Overlay {zIndex} {overlayColor} {action} on:setOpen={setOpen} {stopPropagation} {preventDefault} />
 
 <script>
   export let arrowColor;
@@ -30,6 +30,7 @@
 
   export let preventDefault;
   export let stopPropagation;
+  export let overlayColor;
 
   import Overlay from './Overlay.svelte';
   import { onMount, createEventDispatcher } from 'svelte';

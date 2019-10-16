@@ -13,7 +13,7 @@
     <slot name="target" {open} />
   </div>
   {#if open}
-    <Content on:open={onOpen} on:setOpen={setOpen} {placement} {targetRef} {zIndex} {arrow} {action} {arrowColor} {preventDefault} {stopPropagation}>
+    <Content on:open={onOpen} on:setOpen={setOpen} {placement} {targetRef} {zIndex} {arrow} {action} {overlayColor} {arrowColor} {preventDefault} {stopPropagation}>
       <slot name="content" {open} />
     </Content>
   {/if}
@@ -37,6 +37,7 @@
   export let arrow = true;
   export let placement = 'auto';
   export let arrowColor = '';
+  export let overlayColor = '';
 
   export let preventDefault = false;
   export let stopPropagation = false;
