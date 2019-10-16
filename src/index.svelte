@@ -37,7 +37,7 @@
   export let arrow = true;
   export let placement = 'auto';
   export let arrowColor = '';
-  export let overlayColor = '';
+  export let overlayColor;
 
   export let preventDefault = false;
   export let stopPropagation = false;
