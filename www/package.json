@@ -25,7 +25,7 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^4.0.4",
     "sapper": "^0.27.9",
-    "svelte": "^3.7.1",
+    "svelte": "^3.49.0",
     "svelte-loader": "^2.13.6",
     "svelte-popover": "^2.0.6",
     "webpack": "^4.39.1"
